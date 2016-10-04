@@ -34,7 +34,7 @@ import Intents
 
 class IntentHandler: INExtension, INRidesharingDomainHandling {
     
-    override func handler(for intent: INIntent) -> AnyObject {
+    override func handler(for intent: INIntent) -> Any? {
         // This is the default implementation.  If you want different objects to handle different intents,
         // you can override this and return the handler you want for that particular intent.
         
@@ -43,14 +43,14 @@ class IntentHandler: INExtension, INRidesharingDomainHandling {
     
     // MARK: - INRequestRideIntentHandling
     
-    func handle(requestRide intent: INRequestRideIntent, completion: (INRequestRideIntentResponse) -> Swift.Void) {
+    func handle(requestRide intent: INRequestRideIntent, completion: @escaping (INRequestRideIntentResponse) -> Swift.Void) {
         let response = INRequestRideIntentResponse(code: .inProgress, userActivity: nil)
         completion(response)
     }
     
     // MARK: - INListRideOptionsIntentHandling
     
-    func handle(listRideOptions intent: INListRideOptionsIntent, completion: (INListRideOptionsIntentResponse) -> Void) {
+    func handle(listRideOptions intent: INListRideOptionsIntent, completion: @escaping (INListRideOptionsIntentResponse) -> Void) {
         let response = INListRideOptionsIntentResponse(code: .success, userActivity: nil)
         
         let pickupDate = Date(timeIntervalSinceNow: 240)
@@ -60,14 +60,14 @@ class IntentHandler: INExtension, INRidesharingDomainHandling {
         rideOption.disclaimerMessage = "This ride is cray cray."
         
         response.rideOptions = [rideOption]
-        response.supportsApplePayForPayment = true
+//        response.supp = true
         
         completion(response)
     }
     
     // MARK: - INGetRideStatusIntentHandling
     
-    func handle(getRideStatus intent: INGetRideStatusIntent, completion: (INGetRideStatusIntentResponse) -> Void) {
+    func handle(getRideStatus intent: INGetRideStatusIntent, completion: @escaping (INGetRideStatusIntentResponse) -> Void) {
         let response = INGetRideStatusIntentResponse(code: .inProgress, userActivity: nil)
         completion(response)
     }

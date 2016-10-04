@@ -231,14 +231,17 @@
 				TargetAttributes = {
 					B77E41E21D251D4D004F1572 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5C8685L9NV;
 						ProvisioningStyle = Automatic;
 					};
 					B77E41FB1D251ED0004F1572 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5C8685L9NV;
 						ProvisioningStyle = Automatic;
 					};
 					B77E42041D251ED0004F1572 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5C8685L9NV;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -455,6 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Batmobile/Batmobile.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5C8685L9NV;
 				INFOPLIST_FILE = Batmobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp;
@@ -470,6 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Batmobile/Batmobile.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5C8685L9NV;
 				INFOPLIST_FILE = Batmobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp;
@@ -481,6 +486,7 @@
 		B77E42171D251ED0004F1572 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5C8685L9NV;
 				INFOPLIST_FILE = BatmobileIntentsExtensionUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp.BatmobileIntentsExtensionUI;
@@ -493,6 +499,7 @@
 		B77E42181D251ED0004F1572 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5C8685L9NV;
 				INFOPLIST_FILE = BatmobileIntentsExtensionUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp.BatmobileIntentsExtensionUI;
@@ -505,6 +512,7 @@
 		B77E421A1D251ED0004F1572 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5C8685L9NV;
 				INFOPLIST_FILE = BatmobileIntentsExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp.BatmobileIntentsExtension;
@@ -517,6 +525,7 @@
 		B77E421B1D251ED0004F1572 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5C8685L9NV;
 				INFOPLIST_FILE = BatmobileIntentsExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp.BatmobileIntentsExtension;
